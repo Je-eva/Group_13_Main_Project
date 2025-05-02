@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anomaly Detection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Anomaly Detection</h1>
+
+        <!-- Tabs for switching between Upload & Live Feed -->
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'UploadTab')" id="defaultTab">Upload & Analyze</button>
+            <button class="tablinks" onclick="openTab(event, 'LiveFeedTab')">Live Feed Analysis</button>
+        </div>
+
+        <!-- Upload & Analyze Section -->
+        <div id="UploadTab" class="tabcontent">
+            <h2>Upload Video for Anomaly Detection</h2>
+            <input type="file" id="videoUpload" accept="video/*">
+            <button onclick="uploadVideo()">Upload & Analyze</button>
+            <p id="resultMessage"></p>
+
+            <!-- Anomaly frame container -->
+            <div id="anomalyFrameContainer">
+                <h2 id="anomalyHeading" style="display: none;">Anomaly Frame</h2>
+                <img id="anomalyFrame" src="" alt="Anomaly Frame">
+            </div>
+        </div>
+
+        <!-- Live Feed Analysis Section -->
+        <div id="LiveFeedTab" class="tabcontent">
+            <h2>Live Feed Anomaly Detection</h2>
+            <button onclick="startLiveFeed()">Start Live Feed</button>
+            <button onclick="stopLiveFeed()">Stop Live Feed</button>
+            <p id="liveFeedMessage"></p>
+            <img id="liveFeedFrame" src="" alt="Live Feed" style="display: none; width: 640px; height: 480px; border: 2px solid black;">
+        </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
