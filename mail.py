@@ -5,8 +5,8 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 def send_alert_email(subject, message):
-    email = "jeevaj3v12@gmail.com" 
-    password = "gnfm czrk hkjx dzbg"
+    email = "xyz@gmail.com" 
+    password = "xxxxxxx"
 
     df = pd.read_excel("contacts.xlsx", header=None)
     names = df.iloc[:, 0].tolist()
