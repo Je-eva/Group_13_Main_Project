@@ -1,5 +1,6 @@
 # 🎥 Real-Time Anomaly & Speech-Based Emergency Detection System
-
+## About the Project
+This project was developed as part of our final year engineering graduation project. Special thanks to my teammates Jeswin Jaison, Ardra Krishna, and Jeeva C.S. for their invaluable contributions and collaboration throughout the development process.
 This is a real-time web application for detecting anomalies in video streams and identifying emergency situations through toxic or abusive speech. The system supports both uploaded video analysis and live webcam monitoring, with automatic alert email generation.
 
 ---
@@ -7,7 +8,7 @@ This is a real-time web application for detecting anomalies in video streams and
 ## 🚀 Features
 
 - 🔍 **Video-based anomaly detection** using a deep learning model (STAE - Spatiotemporal Autoencoder).
-- 🧠 **Toxic speech recognition** using Google Speech Recognition and Detoxify.
+- 🧠 **Toxic speech recognition** using Google Speech Recognition and Detoxify 
 - 📷 **Live webcam feed analysis** with anomaly and voice detection.
 - 📩 **Automated alert email system** triggered by detected emergencies.
 - 🌐 **Modern web interface** built with HTML, CSS, and JavaScript.
@@ -88,17 +89,7 @@ This generates `saved_model.keras` and `training.npy`.
 
 ## 🔐 Note on Security
 
-For production, **never expose your email/password** directly in `mail.py`. Use environment variables or a secure secret manager.
+For production, **never expose your mail/password** directly in `mail.py`. Use environment variables or a secure secret manager.
 
----
 
-## 📬 Contact
 
-Maintained by **Jeswin Jaison**.  
-For questions, reach out via [email or GitHub Issues].
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
