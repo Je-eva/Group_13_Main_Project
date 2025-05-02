@@ -44,39 +44,6 @@ This is a real-time web application for detecting anomalies in video streams and
 ├── training.npy          # Preprocessed training dataset
 ```
 
----
-
-## ⚙️ Setup Instructions
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/anomaly-speech-alert-app.git
-   cd anomaly-speech-alert-app
-   ```
-
-2. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Prepare `contacts.xlsx`:**
-   Add your contacts as:
-   ```
-   Name      | Email
-   ----------------------
-   John Doe  | johndoe@example.com
-   ```
-
-4. **Run the application:**
-   ```bash
-   python app.py
-   ```
-
-5. **Access the app:**
-   Open your browser and go to: `http://127.0.0.1:5000/`
-
----
-
 ## 🧪 Train Your Own Model
 
 To train from scratch using your own normal surveillance videos:
