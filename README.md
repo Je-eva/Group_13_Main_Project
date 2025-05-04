@@ -8,7 +8,7 @@ This is a real-time web application for detecting anomalies in video streams and
 ## 🚀 Features
 
 - 🔍 **Video-based anomaly detection** using a deep learning model (STAE - Spatiotemporal Autoencoder).
-- 🧠 **Toxic speech recognition** using Google Speech Recognition and Detoxify 
+- 🧠 **Toxic speech recognition** using Detoxify containing Roberta(Masked Language Modelling)
 - 📷 **Live webcam feed analysis** with anomaly and voice detection.
 - 📩 **Automated alert email system** triggered by detected emergencies.
 - 🌐 **Modern web interface** built with HTML, CSS, and JavaScript.
